@@ -46,16 +46,25 @@
 # n = 1000
 # print(f'O valor de n é {n}')
 
-print('Para importar bibliotecas, se usa import:')
-import math
-print('Para importar funções especificas de uma biblioteca, se usa from:')
-from math import tan, radians
-print('Para importar todas as funções de uma biblioteca, se usa from:')
-from math import *
-print('Para importar uma biblioteca com um apelido, se usa import:')
-import math as m
+# print('Para importar bibliotecas, se usa import:')
+# import math
+# print('Para importar funções especificas de uma biblioteca, se usa from:')
+# from math import sqrt, factorial
+# print('para usar a biblioteca importada depois e só digitar o nome dela com um ponto e depois a função que quer (como math.fatorial)')
+#
+#importando apenas uma função de uma biblioteca, não precisa acessar a biblioteca(biblioteca.xxx) para declarar a função
+#ceil arredonda pra cima
 
+
+from math import ceil, sqrt
+n = int(input('Digite um numero para ver sua raiz quadrada: '))
+n2 = sqrt(n)
+print(f'A raiz quadrada de {n} usando :.0f para ter 2 casas decimais é {n2:.2f}')
+print(f'A raiz quadrada de {n} usando ceil pra arredondar pra cima é {ceil(n2)}')
+
+#para ver a lista de bibliotecas https://docs.python.org/3/library/index.html
 
 #24/02 manhã - aula 6 - https://youtu.be/hdDHg1p3YVc?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=108
 #24/02 meio-dia - aula 7 - https://youtu.be/Vw6gLypRKmY?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1676
 #25/02 manhã - aula 8 - https://youtu.be/oOUyhGNib2Q?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=429
+#25/02 manhã - aula 8 - https://youtu.be/oOUyhGNib2Q?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1524
