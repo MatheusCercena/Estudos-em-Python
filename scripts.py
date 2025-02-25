@@ -19,18 +19,43 @@
 # dsamaskd='5a'
 # print(dsamaskd.isalnum())
 
-print('Operadores aritméticos')
-print('O que python tem de diferente é o uso de // para fazer uma divisão inteira, em que da o resultado da divisão sem o resto')
-print('A ordem de precedência é primeiro parenteses, depois potenciação, depois multiplicações, divisões, divisão inteira e resto')
-print('Outra forma de fazer potênciação, é usando pow(a, b), veja:')
-print('5 elevado a 3 é:', pow(5,3))
-print('O problema de usar pow(n1, n2) é que se perde a ordem de precedência.')
-print('Raiz quadrada')
-print('Pra calcular a raiz quadrada de um número, se faz o número elevado a 1/2. Se for raiz cúbica, se faz o número elevado a 1/3, veja:')
-print(int(15**(1/2)), 'raiz quadrada de 15 (aqui foi usado int para envelopar a conta para que o resultado de inteiro, sendo que ele sempre é arredondado para baixo.)')
-print(int(16**(1/2)),'raiz quadrada de 15, como numero real')
-print(16**(1/2),'raiz quadrada de 15, como numero real')
-print(125**(1/3), 'raiz cubica de 125')
+# print('Operadores aritméticos')
+# print('O que python tem de diferente é o uso de // para fazer uma divisão inteira, em que da o resultado da divisão sem o resto')
+# print('A ordem de precedência é primeiro parenteses, depois potenciação, depois multiplicações, divisões, divisão inteira e resto')
+# print('Outra forma de fazer potênciação, é usando pow(a, b), veja:')
+# print('5 elevado a 3 é:', pow(5,3))
+# print('O problema de usar pow(n1, n2) é que se perde a ordem de precedência.')
+# print('Raiz quadrada')
+# print('Pra calcular a raiz quadrada de um número, se faz o número elevado a 1/2. Se for raiz cúbica, se faz o número elevado a 1/3, veja:')
+# print(int(15**(1/2)), 'raiz quadrada de 15 (aqui foi usado int para envelopar a conta para que o resultado de inteiro, sendo que ele sempre é arredondado para baixo.)')
+# print(int(16**(1/2)),'raiz quadrada de 15, como numero real')
+# print(16**(1/2),'raiz quadrada de 15, como numero real')
+# print(125**(1/3), 'raiz cubica de 125')
+# print('Para definir a quantidade de casas decimais, se usa o :.nf, onde n é a quantidade de casas decimais, veja:')
+# print('{:.2f}'.format(3.1415), 'aqui foi usado "{:.2f}" para definir 2 casas decimais')
+# print('Para nao quebrar a linha ao usar print, colocar end="" no final do print, como aqui...', end="")
+# print('...nesse exemplo')
+# print('Para pular linha, se usa \n, veja:')
+# print('linha 1\nlinha 2')
+
+# lskdsd = int(input('Digite um numero de 10 a 99: '))
+# print(lskdsd + 1)
+
+# print('Outra forma de usar .format é colocar f antes das aspas, veja:')
+# print(f'A soma entre {n1} e {n2} vale {s}')
+# n = 1000
+# print(f'O valor de n é {n}')
+
+print('Para importar bibliotecas, se usa import:')
+import math
+print('Para importar funções especificas de uma biblioteca, se usa from:')
+from math import tan, radians
+print('Para importar todas as funções de uma biblioteca, se usa from:')
+from math import *
+print('Para importar uma biblioteca com um apelido, se usa import:')
+import math as m
+
 
 #24/02 manhã - aula 6 - https://youtu.be/hdDHg1p3YVc?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=108
 #24/02 meio-dia - aula 7 - https://youtu.be/Vw6gLypRKmY?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1676
+#25/02 manhã - aula 8 - https://youtu.be/oOUyhGNib2Q?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=429
