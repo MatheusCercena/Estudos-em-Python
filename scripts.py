@@ -35,7 +35,7 @@
 # print('{:.2f}'.format(3.1415), 'aqui foi usado "{:.2f}" para definir 2 casas decimais')
 # print('Para nao quebrar a linha ao usar print, colocar end="" no final do print, como aqui...', end="")
 # print('...nesse exemplo')
-# print('Para pular linha, se usa \n, veja:')
+# print('Para pular linha, se usa \n DENTRO DA STRING, veja:')
 # print('linha 1\nlinha 2')
 
 # lskdsd = int(input('Digite um numero de 10 a 99: '))
@@ -55,16 +55,39 @@
 #importando apenas uma função de uma biblioteca, não precisa acessar a biblioteca(biblioteca.xxx) para declarar a função
 #ceil arredonda pra cima
 
-
-from math import ceil, sqrt
-n = int(input('Digite um numero para ver sua raiz quadrada: '))
-n2 = sqrt(n)
-print(f'A raiz quadrada de {n} usando :.0f para ter 2 casas decimais é {n2:.2f}')
-print(f'A raiz quadrada de {n} usando ceil pra arredondar pra cima é {ceil(n2)}')
+# from math import ceil, sqrt
+# n = int(input('Digite um numero para ver sua raiz quadrada: '))
+# n2 = sqrt(n)
+# print(f'A raiz quadrada de {n} usando :.0f para ter 2 casas decimais é {n2:.2f}')
+# print(f'A raiz quadrada de {n} usando ceil pra arredondar pra cima é {ceil(n2)}')
 
 #para ver a lista de bibliotecas https://docs.python.org/3/library/index.html
+
+# #Package index: instalar pacotes adicionais indo no site python.org, depois em PyPi, aí
+# import emoji
+# print(emoji.emojize("Olá mundo :grinning_face:!"))
+# print('Pra ver os modulos instalados, vá em interpretadores python de projeto dentro das preferencias do pycharm')
+
+# import random
+# print('lista de variaveis, usar colchetes pra envolver a variavel')
+# n1 = str(input('digite um nome'))
+# n2 = str(input('digite um nome'))
+# n3 = str(input('digite um nome'))
+# lista = [n1, n2, n3]
+# escolhido = random.choice(lista)
+# print(escolhido)
+# random.shuffle(lista)
+# print(lista)
+
+frase = 'Curso em Video Python'
+print(len(frase))
+print('Usar variável.find() pra indicar a posição em que acha uma parte do texto: \n', f'Nesse caso, a palavra Video esta na posição {frase.find('Video')}')
+print(f'O numero de vezes que V aparece: \n{frase.count('V')}')
+
+#continuar vendo sobre listagem 1:13, que lista de 1 a 12, etc
 
 #24/02 manhã - aula 6 - https://youtu.be/hdDHg1p3YVc?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=108
 #24/02 meio-dia - aula 7 - https://youtu.be/Vw6gLypRKmY?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1676
 #25/02 manhã - aula 8 - https://youtu.be/oOUyhGNib2Q?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=429
 #25/02 manhã - aula 8 - https://youtu.be/oOUyhGNib2Q?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1524
+#25/02 tarde - aula 9 min 19:00 - https://youtu.be/a7DH88vk2Sk?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1157
