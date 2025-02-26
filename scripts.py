@@ -79,15 +79,35 @@
 # random.shuffle(lista)
 # print(lista)
 
-frase = 'Curso em Video Python'
-print(len(frase))
-print('Usar variável.find() pra indicar a posição em que acha uma parte do texto: \n', f'Nesse caso, a palavra Video esta na posição {frase.find('Video')}')
-print(f'O numero de vezes que V aparece: \n{frase.count('V')}')
+# frase = 'Curso em Video Python'
+# print(len(frase))
+# print('Usar variável.find() pra indicar a posição em que acha uma parte do texto: \n', f'Nesse caso, a palavra Video esta na posição {frase.find('Video')}')
+# print(f'O numero de vezes que V aparece: \n{frase.count('V')}')
+# print('Se ele não achar o valor especificado, irá retornar -1')
+#
+# print('Cada caractere dentro de uma string entra em um espaço de memória, numerado a partir do 0, para saber os valores dentro de cada espaço de memória usar a notação:')
+# print('frase(5:13), em que ele conta as variaveis na posição 5 até a 12(o ultimo numero deixa de fora)')
+#
+# print('pra saber se um valor está dentro da variável na forma de verdadeiro ou falso, usar "in", por exemplo:')
+# print('Resultado de Android in frase}', f'{'Android' in frase}')
 
-#continuar vendo sobre listagem 1:13, que lista de 1 a 12, etc
+# frase = 'Curso em Video Python'
+# print('.replace(): Usar replace() para trocar palavras: ', f'{frase.replace('Python', 'Android')}')
+# print('.upper(): usar upper() para fazer letras maiusculas: ', f'{frase.upper()}')
+# print('Outros comandos: .lower(), .capitalize(), .title()')
+# print('.strip(), usar para remover espaços em branco no começo e fim das strings')
+# print('Pode-se usar .lstrip() ou .rstrip() para remover os espaços apenas na esquerda ou na direita')
+
+frase = 'Curso em Video Python'
+print('.split(), divide a string dentro da variavel em outras strings, separando pelo espaço em branco, e ao mesmo tempo cria uma lista de objetos dentro da variavel')
+print('use ''.join(variavel) para unir frases')
+print(f'{'-'.join(frase.split())}')
+
+ver join no chat gpt
 
 #24/02 manhã - aula 6 - https://youtu.be/hdDHg1p3YVc?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=108
 #24/02 meio-dia - aula 7 - https://youtu.be/Vw6gLypRKmY?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1676
 #25/02 manhã - aula 8 - https://youtu.be/oOUyhGNib2Q?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=429
 #25/02 manhã - aula 8 - https://youtu.be/oOUyhGNib2Q?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1524
 #25/02 tarde - aula 9 min 19:00 - https://youtu.be/a7DH88vk2Sk?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1157
+#26/02 meio dia - aula 9 min 30:13 - https://youtu.be/a7DH88vk2Sk?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1813
