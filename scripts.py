@@ -65,7 +65,7 @@
 
 # #Package index: instalar pacotes adicionais indo no site python.org, depois em PyPi, aí
 # import emoji
-# print(emoji.emojize("Olá mundo :grinning_face:!"))
+# print(emoji.emojize(":grinning_face:!")) # lembrar de usar aspas
 # print('Pra ver os modulos instalados, vá em interpretadores python de projeto dentro das preferencias do pycharm')
 
 # import random
@@ -81,6 +81,8 @@
 
 # frase = 'Curso em Video Python'
 # print(len(frase))
+# print('caso a variavel tenha apenas um objeto, len retorna o numero de caracteres')
+# print('caso a variavel tenha mais de um objeto, len retorna o numero de objetos')
 # print('Usar variável.find() pra indicar a posição em que acha uma parte do texto: \n', f'Nesse caso, a palavra Video esta na posição {frase.find('Video')}')
 # print(f'O numero de vezes que V aparece: \n{frase.count('V')}')
 # print('Se ele não achar o valor especificado, irá retornar -1')
@@ -98,16 +100,45 @@
 # print('.strip(), usar para remover espaços em branco no começo e fim das strings')
 # print('Pode-se usar .lstrip() ou .rstrip() para remover os espaços apenas na esquerda ou na direita')
 
-frase = 'Curso em Video Python'
-print('.split(), divide a string dentro da variavel em outras strings, separando pelo espaço em branco, e ao mesmo tempo cria uma lista de objetos dentro da variavel')
-print('use ''.join(variavel) para unir frases')
-print(f'{'-'.join(frase.split())}')
+# frase = 'Curso em Video Python'
+# print('.split(), divide a string dentro da variavel em outras strings, separando pelo espaço em branco, e ao mesmo tempo cria uma lista de objetos dentro da variavel')
+# print('use ''.join(variavel) para concatenar uma sequencia de strings usando o separados indicado no ''')
+# print(f'{'-'.join(frase.split())}')
+#
+# print('Outro exemplo é:')
+# palavras = ["Olá", "mundo", "Python"]
+# frase = ' '.join(palavras)  # Junta as palavras com espaço entre elas
+# print(frase)
 
-ver join no chat gpt
+# frase = 'Curso em Video Python'
+# frase = frase.split()
+# quantidade_de_palavras = len(frase)
+# print(frase[quantidade_de_palavras-1])
+
+# frase = 'Curso em Video Python'
+# quantidade_de_palavras = len(frase)
+# print(frase[quantidade_de_palavras-1])
+
+# print('Condicionais')
+# nota = float(input('qual sua nota?'))
+# if nota >= 6:
+#     print('Você esta aprovado')
+# else:
+#     print('Você está reprovado')
+
+import emoji, random
+print('Vamos jogar o jogo da advninhação!!!')
+print(f'Primeiro, você escolhe um número de 1 a 10, então, eu lhe digo que número eu pensei. Vamos ver quem é melhor! {emoji.emojize(":smiling_face_with_horns:")}')
+palpite = input('Vamos lá, já pensei em um número, diga qual foi: ')
+#numeroPensado = random.choice() ver no gpt
+#pyinstaller --onefile 
 
 #24/02 manhã - aula 6 - https://youtu.be/hdDHg1p3YVc?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=108
 #24/02 meio-dia - aula 7 - https://youtu.be/Vw6gLypRKmY?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1676
 #25/02 manhã - aula 8 - https://youtu.be/oOUyhGNib2Q?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=429
 #25/02 manhã - aula 8 - https://youtu.be/oOUyhGNib2Q?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1524
 #25/02 tarde - aula 9 min 19:00 - https://youtu.be/a7DH88vk2Sk?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1157
-#26/02 meio dia - aula 9 min 30:13 - https://youtu.be/a7DH88vk2Sk?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1813
+#26/02 meio-dia - aula 9 min 30:13 - https://youtu.be/a7DH88vk2Sk?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1813
+#26/02 tarde - terminei aula 9 e exercícios, ir pra aula 10 https://youtu.be/K10u3XIf1-Qlist=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6
+#27/02 meio-dia - terminei aula 10, fazendo exercício 28 https://youtu.be/kchC5KLZSZ4?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6
+
