@@ -126,17 +126,58 @@
 # else:
 #     print('Você está reprovado')
 
-import random
-print('Vamos jogar o jogo da advinhação!!!')
-print(f'Primeiro, você escolhe um número de 1 a 10, então, eu lhe digo que número eu pensei. Vamos ver quem é melhor!')
-palpite = int(input('Vamos lá, já pensei em um número, diga qual foi: '))
-numeroPensado = int(random.choice(range(1, 11)))#até 11 pra selecionar 10
-if palpite == numeroPensado:
-    print('O que??? Como? Vc sabia? ')
-else:
-    print(f'MUHAHAHA MERO MORTAL, COMO OUSA ME DESAFIAR?!?!?! EU HAVIA PENSADO NO {numeroPensado}')
+# import random
+# from time import sleep
+# print('Vamos jogar o jogo da advinhação!!!')
+# print(f'Primeiro, você escolhe um número de 1 a 10, então, eu lhe digo que número eu pensei. Vamos ver quem é melhor!')
+# print('Agora, vou te deixar pensar em um número...')
+# sleep(3)
+# palpite = int(input('Vamos lá, acabou o tempo, diga qual número que eu pensei: '))
+# numeroPensado = int(random.choice(range(1, 11)))#até 11 pra selecionar 10
+# if palpite == numeroPensado:
+#     print('O que??? Como? Vc sabia? ')
+# else:
+#     print(f'MUHAHAHA MERO MORTAL, COMO OUSA ME DESAFIAR?!?!?! EU HAVIA PENSADO NO {numeroPensado}')
+# input("Pressione Enter para sair...")
 
-input("Pressione Enter para sair...")
+#CORES NO TERMINAL
+
+#FORMATAÇÃO DE LETRAS
+letra_branca = '\033[0m'
+letra_negrito = '\033[1m'
+letra_sublinhada = '\033[4m'
+letra_invertida = '\033[7m'
+
+# preto = '\033[30;40m'
+# vermelho = '\033[31;41m'
+# verde = '\033[32;42m'
+# amarelo = '\033[33;43m'
+# azul = '\033[34;44m'
+# magenta = '\033[35;45m'
+# ciano = '\033[36;46m'
+# cinza = '\033[37;47m'
+# branco = '\033[97;107m'
+# limpa = \033[m
+
+# cores = {
+#     'preto' : '\033[30m',
+#     'vermelho' : '\033[31m',
+#     'verde' : '\033[32m',
+#     'amarelo' : '\033[33m',
+#     'azul' : '\033[34m',
+#     'magenta' : '\033[35m',
+#     'ciano' : '\033[36m',
+#     'cinza' : '\033[37m',
+#     'branco' : '\033[97m',
+#     'limpa' : '\033[m'
+# }
+# print('Para colocar cores no terminal, se usa um código: \033m[estilo; cor da letra; cor do fundo m')
+# print(f'Exemplo: Este PC irá {cores['vermelho']}EXPLODIR{cores['limpa']} MUHAHAHA')
+
+
+
+
+
 #python -m PyInstaller --onefile seu_script.py
 
 #24/02 manhã - aula 6 - https://youtu.be/hdDHg1p3YVc?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=108
@@ -147,4 +188,4 @@ input("Pressione Enter para sair...")
 #26/02 meio-dia - aula 9 min 30:13 - https://youtu.be/a7DH88vk2Sk?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1813
 #26/02 tarde - terminei aula 9 e exercícios, ir pra aula 10 https://youtu.be/K10u3XIf1-Qlist=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6
 #27/02 meio-dia - terminei aula 10, fazendo exercício 28 https://youtu.be/kchC5KLZSZ4?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6
-
+#27/02 tarde/noite - terminei exercícios aula 10, ir pra 11 
