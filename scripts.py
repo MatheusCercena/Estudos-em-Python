@@ -142,11 +142,11 @@
 
 #CORES NO TERMINAL
 
-#FORMATAÇÃO DE LETRAS
-letra_branca = '\033[0m'
-letra_negrito = '\033[1m'
-letra_sublinhada = '\033[4m'
-letra_invertida = '\033[7m'
+# #FORMATAÇÃO DE LETRAS
+# letra_branca = '\033[0m'
+# letra_negrito = '\033[1m'
+# letra_sublinhada = '\033[4m'
+# letra_invertida = '\033[7m'
 
 # preto = '\033[30;40m'
 # vermelho = '\033[31;41m'
@@ -205,6 +205,47 @@ letra_invertida = '\033[7m'
 # else:
 #     print(f'{n} é um número negativo.')
 
+# ESTRUTURAS DE REPETIÇÃO
+
+#SINTAXE: for variavel in range(início, fim, passo):
+# for c in range(0, 4, 2):#vai do 0 ao 3, termina no 4, pulando de 2 em 2.
+#     print(c)
+# print('fim')
+
+#PROGRAMA DE CONTAGEM REGRESSIVA
+# from time import sleep
+# for c in range(10, 0, -1):
+#     print(c)
+#     sleep(1)
+# print('Vaaaaai!!!')
+
+#DE 1 A 50 APENAS PARES
+# for c in range(1, 51):
+#     if c % 2 == 0 and c != 50:
+#         print(f'{c}, ', end='')
+#     elif c == 50:
+#         print(f'{c}.')
+
+#Numeros primos
+# n = int(input('Digite um número: '))
+# vermelho = '\033[31m'
+# amarelo = '\033[33m'
+# h = 0
+# for c in range(1, 11):
+#     if n%c == 0:
+#         h += 1
+#         print(f'{vermelho}{c}', end='')
+#     else:
+#         print(f'{amarelo}{c}', end='')
+#     if c == 10:
+#         print('')#pra quebrar a linha
+# if h != 0:
+#     print(f'O número {n} foi divisível {h} vezes. Por isso, ele não é primo.')
+# else:
+#     print(f'O número {n} não é divisível por nenhum número. Por isso, ele é primo.')
+
+
+
 #python -m PyInstaller --onefile seu_script.py
 
 #24/02 manhã - aula 6 - https://youtu.be/hdDHg1p3YVc?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=108
@@ -218,4 +259,4 @@ letra_invertida = '\033[7m'
 #27/02 tarde/noite - terminei exercícios aula 10, ir pra 11 https://www.youtube.com/watch?v=0hBIhkcA8O8&t=1425s
 #28/02 manhã - vi aula 11, cores no terminal, ir pra aula 12 - https://www.youtube.com/watch?v=j9bYDjaAYzw&list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye&index=2
 #28/02 meio-dia - vi aula 12, condições aninhadas, continuar aula 13 em 8:32min - https://youtu.be/cL4YDtFnCt4?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye&t=512
-#28/02 tarde - vi aula 13
+#28/02 tarde - terminei aula 13, ir pra aula 14 https://youtu.be/LH6OIn2lBaI?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye
