@@ -174,9 +174,36 @@ letra_invertida = '\033[7m'
 # print('Para colocar cores no terminal, se usa um código: \033m[estilo; cor da letra; cor do fundo m')
 # print(f'Exemplo: Este PC irá {cores['vermelho']}EXPLODIR{cores['limpa']} MUHAHAHA')
 
+#CONVERSÕES PARA BINÁRIO, OCTAL E HEXADECIMAL.
+#               +
+#ESTRUTURAS IF, ELIF E ELSE
+# n= int(input('Digite um número: '))
+# base = int(input('Escolha para qual base converter:'
+#       '\n1 pra binário'
+#       '\n2 pra Octal'
+#       '\n3 pra Hexadecimal'
+#       '\n'))
+# if base == 1:
+#     print(f'O número {n} em binário é: {bin(n)}')
+# elif base == 2:
+#     print(f'O número {n} em octal é: {oct(n)}')
+# elif base == 3:
+#     print(f'O número {n} em hexadecimal é: {hex(n)}')
+# else:
+#     print('Digite um número válido.')
 
-
-
+# #IF DENTRO DE OUTRO IF
+# n = int(input('Digite um número: '))
+# if n > 0:
+#     print(f'{n} é um número positivo.')
+#     if n % 2 == 0:
+#         print(f'{n} é um número par.')
+#     else:
+#         print(f'{n} é um número ímpar.')
+# elif n == 0:
+#     print(f'{n} é um número neutro.')
+# else:
+#     print(f'{n} é um número negativo.')
 
 #python -m PyInstaller --onefile seu_script.py
 
@@ -188,4 +215,7 @@ letra_invertida = '\033[7m'
 #26/02 meio-dia - aula 9 min 30:13 - https://youtu.be/a7DH88vk2Sk?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1813
 #26/02 tarde - terminei aula 9 e exercícios, ir pra aula 10 https://youtu.be/K10u3XIf1-Qlist=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6
 #27/02 meio-dia - terminei aula 10, fazendo exercício 28 https://youtu.be/kchC5KLZSZ4?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6
-#27/02 tarde/noite - terminei exercícios aula 10, ir pra 11 
+#27/02 tarde/noite - terminei exercícios aula 10, ir pra 11 https://www.youtube.com/watch?v=0hBIhkcA8O8&t=1425s
+#28/02 manhã - vi aula 11, cores no terminal, ir pra aula 12 - https://www.youtube.com/watch?v=j9bYDjaAYzw&list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye&index=2
+#28/02 meio-dia - vi aula 12, condições aninhadas, continuar aula 13 em 8:32min - https://youtu.be/cL4YDtFnCt4?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye&t=512
+#28/02 tarde - vi aula 13
