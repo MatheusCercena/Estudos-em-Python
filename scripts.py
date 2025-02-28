@@ -126,12 +126,18 @@
 # else:
 #     print('Você está reprovado')
 
-import emoji, random
-print('Vamos jogar o jogo da advninhação!!!')
-print(f'Primeiro, você escolhe um número de 1 a 10, então, eu lhe digo que número eu pensei. Vamos ver quem é melhor! {emoji.emojize(":smiling_face_with_horns:")}')
-palpite = input('Vamos lá, já pensei em um número, diga qual foi: ')
-#numeroPensado = random.choice() ver no gpt
-#pyinstaller --onefile 
+import random
+print('Vamos jogar o jogo da advinhação!!!')
+print(f'Primeiro, você escolhe um número de 1 a 10, então, eu lhe digo que número eu pensei. Vamos ver quem é melhor!')
+palpite = int(input('Vamos lá, já pensei em um número, diga qual foi: '))
+numeroPensado = int(random.choice(range(1, 11)))#até 11 pra selecionar 10
+if palpite == numeroPensado:
+    print('O que??? Como? Vc sabia? ')
+else:
+    print(f'MUHAHAHA MERO MORTAL, COMO OUSA ME DESAFIAR?!?!?! EU HAVIA PENSADO NO {numeroPensado}')
+
+input("Pressione Enter para sair...")
+#python -m PyInstaller --onefile seu_script.py
 
 #24/02 manhã - aula 6 - https://youtu.be/hdDHg1p3YVc?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=108
 #24/02 meio-dia - aula 7 - https://youtu.be/Vw6gLypRKmY?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&t=1676
