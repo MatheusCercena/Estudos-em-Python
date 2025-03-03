@@ -244,7 +244,23 @@
 # else:
 #     print(f'O número {n} não é divisível por nenhum número. Por isso, ele é primo.')
 
+#Validador de dados, com While
+# s = input('Digite seu sexo [m/f]: ').strip().upper()
+# while s != 'M' and s != 'F':
+#     s = input('Dados inválidos. Por favor, use "m" para masculino ou "f" para feminino: ').strip().upper()
+# if s == 'M':
+#     print('Seu sexo é masculino, confirma essa opção?')
+# else:
+#     print('Seu sexo é feminino, confirma essa opção?')
 
+#fatorial de um numero
+n = int(input('Digite um número: '))
+res = 0
+while n != 0:
+    f = n*(n-1)
+    n = n-1
+
+    print(f)
 
 #python -m PyInstaller --onefile seu_script.py
 
@@ -260,3 +276,5 @@
 #28/02 manhã - vi aula 11, cores no terminal, ir pra aula 12 - https://www.youtube.com/watch?v=j9bYDjaAYzw&list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye&index=2
 #28/02 meio-dia - vi aula 12, condições aninhadas, continuar aula 13 em 8:32min - https://youtu.be/cL4YDtFnCt4?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye&t=512
 #28/02 tarde - terminei aula 13, ir pra aula 14 https://youtu.be/LH6OIn2lBaI?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye
+#28/02 noite - vi aula 14 até min 15:00, continuar com exercícios https://youtu.be/LH6OIn2lBaI?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye
+#03/03 meio-dia - fazendo desafio 60, terminar esse e ir pro próximo https://youtu.be/LH6OIn2lBaI?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye&t=1872
